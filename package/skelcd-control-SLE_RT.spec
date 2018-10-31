@@ -46,7 +46,7 @@ Source0:        installation.xml
 
 # SUSEConnect does not build for i586 and s390 and is not supported on those architectures
 # bsc#1088552
-ExcludeArch:    %ix86 s390
+ExcludeArch:    %ix86 s390 s390x ppc64le aarch64
 
 %description
 SLE_RT control file needed for installation
