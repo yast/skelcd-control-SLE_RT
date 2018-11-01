@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Nov  1 04:03:04 UTC 2018 - Jeffrey Cheung <jcheung@suse.com>
+
+- exclude all unsupported architectures
+  fate#326547
+
+-------------------------------------------------------------------
 Tue Sep 11 07:40:01 UTC 2018 - jcheung@suse.com
 
 - initial package for SLE15 SP1
