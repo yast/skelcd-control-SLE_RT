@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed Oct 31 07:57:11 UTC 2018 - Jeffrey Cheung <jcheung@suse.com>
+Thu Nov  1 04:03:04 UTC 2018 - Jeffrey Cheung <jcheung@suse.com>
 
-- Add the unsupported platforms
+- exclude all unsupported architectures
+  fate#326547
 
 -------------------------------------------------------------------
 Tue Sep 11 07:40:01 UTC 2018 - jcheung@suse.com
