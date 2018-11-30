@@ -25,15 +25,16 @@ to disk partitioning. By choosing a system role, the system is
 configured accordingly to match the use case of the role. The settings
 defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</label>
         </roles_help>
-        <minimal_role>
+        <rt_role>
           <!-- TRANSLATORS: a label for a system role -->
-          <label>SUSE Linux Enterprise Real Time</label>
-        </minimal_role>
-        <minimal_role_description>
-          <label>
-            • Includes Real Time kernel, Real Time test suite, and Real Time KMP 
-          </label>
-        </minimal_role_description>
+          <label>Real Time</label>
+        </rt_role>
+        <rt_role_description>
+          <label>• RT pattern installed
+• Real Time kernel
+• Real Time test suites
+• Real Time KMPs</label>
+        </rt_role_description>
     </texts>
 
     <partitioning>
@@ -157,14 +158,14 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
               <system_role>
                 <!-- the id is a key for texts/$id/label
                                      and texts/$id_description/label below -->
-                <id>minimal_role</id>
+                <id>rt_role</id>
                 <!-- nothing is overlaid for the normal role -->
 
-                <order config:type="integer">2000</order>
+                <order config:type="integer">500</order>
                 <software>
 		<!-- Role could also be used on laptop and workstation, so a graphical environment is
 		     needed bsc#1090283  -->
-                  <default_patterns>base rt_sles ofed yast2_basis devel_basis x11 gnome_basic</default_patterns>
+                  <default_patterns>base enhanced_base rt_sles ofed yast2_basis devel_basis x11 gnome_basic</default_patterns>
                   <!-- the cdata trick produces an empty string in the data
                        instead of omitting the key entirely -->
                   <optional_default_patterns></optional_default_patterns>
