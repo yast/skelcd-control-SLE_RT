@@ -15,8 +15,10 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
+%define         skelcd_name SLE_RT
+%define         skelcd_datadir %{_datadir}/installation-products
 
-Name:           skelcd-control-SLE_RT
+Name:           skelcd-control-%{skelcd_name}
 # xsltproc for converting SLES control file to SLES-for-VMware
 BuildRequires:  libxslt-tools
 # xmllint (for validation)
@@ -66,10 +68,11 @@ xmllint --noout --relaxng /usr/share/YaST2/control/control.rng installation.xml
 #
 # Add installation file
 #
-install -m 644 installation.xml $RPM_BUILD_ROOT/
+mkdir -p $RPM_BUILD_ROOT/%{skelcd_datadir}
+install -m 644 installation.xml $RPM_BUILD_ROOT/%{skelcd_datadir}/%{skelcd_name}.xml
 
 %files
 %defattr(644,root,root,755)
-/installation.xml
+%{skelcd_datadir}
 
 %changelog
