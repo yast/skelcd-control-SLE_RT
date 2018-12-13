@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Dec 12 09:29:24 UTC 2018 - dgonzalez@suse.com
+
+- Use FHS compliant path (fate#325482)
+- 15.1.2
+
+-------------------------------------------------------------------
 Mon Dec  3 05:56:17 UTC 2018 - Jeffrey Cheung <jcheung@suse.com>
 
 - Modify the system role setting and description ( bsc#1117734 )
