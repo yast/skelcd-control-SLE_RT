@@ -15,10 +15,8 @@
 # Please submit bugfixes or comments via http://bugs.opensuse.org/
 #
 
-%define         skelcd_name SLE_RT
-%define         skelcd_datadir %{_datadir}/installation-products
 
-Name:           skelcd-control-%{skelcd_name}
+Name:           skelcd-control-SLE_RT
 # xsltproc for converting SLES control file to SLES-for-VMware
 BuildRequires:  libxslt-tools
 # xmllint (for validation)
@@ -38,7 +36,7 @@ Provides:       system-installation() = SLE-RT
 
 Url:            https://github.com/yast/skelcd-control-SLE_RT
 AutoReqProv:    off
-Version:        15.1.2
+Version:        15.1.1
 Release:        0
 Summary:        SLE_RT control file needed for installation
 License:        MIT
@@ -68,11 +66,10 @@ xmllint --noout --relaxng /usr/share/YaST2/control/control.rng installation.xml
 #
 # Add installation file
 #
-mkdir -p $RPM_BUILD_ROOT/%{skelcd_datadir}
-install -m 644 installation.xml $RPM_BUILD_ROOT/%{skelcd_datadir}/%{skelcd_name}.xml
+install -m 644 installation.xml $RPM_BUILD_ROOT/
 
 %files
 %defattr(644,root,root,755)
-%{skelcd_datadir}
+/installation.xml
 
 %changelog
