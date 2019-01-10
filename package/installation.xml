@@ -27,7 +27,7 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
         </roles_help>
         <rt_role>
           <!-- TRANSLATORS: a label for a system role -->
-          <label>Real Time ( GUI )</label>
+          <label>Real Time ( GUI Mode )</label>
         </rt_role>
         <rt_role_description>
           <label>• RT pattern installed
