@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Jan 10 07:44:29 UTC 2019 - Jeffrey Cheung <jcheung@suse.com>
+
+- Update system role description 
+
+-------------------------------------------------------------------
 Fri Nov 30 04:59:29 UTC 2018 - Jeffrey Cheung <jcheung@suse.com>
 
 - Modify the system role setting and description ( bsc#1117734 )
