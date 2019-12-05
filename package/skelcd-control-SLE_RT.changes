@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Dec  4 18:32:07 UTC 2019 - Ladislav Slezák <lslezak@suse.cz>
+
+- Run the registration also on the Full medium (jsc#SLE-7214)
+- 15.2.1
+
+-------------------------------------------------------------------
 Thu Oct 17 10:26:44 UTC 2019 - Josef Reidinger <jreidinger@suse.com>
 
 - Skip the registration step (jsc#SLE-7214)
