@@ -104,6 +104,11 @@ defined by a role can be overridden in the next steps if necessary.&lt;/p&gt;</l
                         <path>boot/grub2/x86_64-efi</path>
                         <archs>x86_64</archs>
                     </subvolume>
+		    <!-- bsc#1162320 -->
+		    <subvolume>
+                        <path>boot/grub2/arm64-efi</path>
+                        <archs>aarch64</archs>
+                    </subvolume>
                 </subvolumes>
             </volume>
 
