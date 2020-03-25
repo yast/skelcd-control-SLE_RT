@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Wed Mar 25 02:01:24 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
+
+- Bump to 15.2.2
+
+-------------------------------------------------------------------
 Tue Mar 17 04:52:42 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
 
 - Add /boot/grub2/arm64-efi subvolume for all roles 
