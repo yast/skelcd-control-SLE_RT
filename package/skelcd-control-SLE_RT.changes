@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri Mar 27 02:04:12 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
+
+- Bump to the correct version 15.2.2 ( bsc#1162320 )
+
+-------------------------------------------------------------------
 Tue Mar 17 04:52:42 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
 
 - Add /boot/grub2/arm64-efi subvolume for all roles 
