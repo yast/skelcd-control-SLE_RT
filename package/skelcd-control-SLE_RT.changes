@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon May 11 07:44:12 UTC 2020 - Steffen Winterfeldt <snwint@suse.com>
+
+- remove obsolete proposal_settings_editable (bsc#1171423)
+- 15.3.0
+
+-------------------------------------------------------------------
 Fri Mar 27 02:04:12 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
 
 - Bump to the correct version 15.2.2 ( bsc#1162320 )
