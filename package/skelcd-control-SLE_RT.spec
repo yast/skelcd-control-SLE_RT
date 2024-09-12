@@ -1,7 +1,7 @@
 #
-# spec file for package skelcd-control-SLE_RT
+# spec file
 #
-# Copyright (c) 2018 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2023 SUSE LLC
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -12,8 +12,9 @@
 # license that conforms to the Open Source Definition (Version 1.9)
 # published by the Open Source Initiative.
 
-# Please submit bugfixes or comments via http://bugs.opensuse.org/
+# Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
+
 
 %define         skelcd_name SLE_RT
 
@@ -38,7 +39,7 @@ Provides:       system-installation() = SLE-RT
 #
 ######################################################################
 
-Url:            https://github.com/yast/skelcd-control-SLE_RT
+URL:            https://github.com/yast/skelcd-control-SLE_RT
 AutoReqProv:    off
 Version:        15.6.0
 Release:        0
