@@ -41,7 +41,7 @@ Provides:       system-installation() = SLE-RT
 
 URL:            https://github.com/yast/skelcd-control-SLE_RT
 AutoReqProv:    off
-Version:        15.6.0
+Version:        15.7.0
 Release:        0
 Summary:        SLE_RT control file needed for installation
 License:        MIT
